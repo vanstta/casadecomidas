@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>TU CASA DE COMIDAS CIUDADELA</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+
+    <header> 
+       
+        <nav class="nav">
+            <input type="checkbox" id="check" >
+            <label for="check" class="checkbtn" id="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label ><a id="logo" href="index.html"><img class="logo" src="./imagenes/logo.png" alt="logo empresa"></a></label>
+            <ul class="lista">
+                <li>
+                    <a href="#inicio">Inicio</a>
+                </li>
+                <li>
+                    <a href="#comidas">Menú</a>
+                </li>
+                <li>
+                    <a href="#nosotros">¿Quiénes somos?</a>
+                </li>
+               
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+              <li>
+                <button class="pedir_nav"><a class="texto_btn" href="https://api.whatsapp.com/send?phone=5491159519040">Hacé tu pedido</a></button>
+              </li>
+            </ul>
+      
+        </nav>
+<div>
+    <div  id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol  class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="encabezado carousel-item active">
+        <img src="imagenes/1.jpg" class="d-block w-100" alt="foto de milanesa">
+        <div class="carousel-caption d-none d-md-block">
+            <h1>¿QUÉ VAS A PEDIR HOY?</h1>
+            <h2>CIUDADELA - TU CASA DE COMIDAS</h2>
+            <div class="botones">   <button class="ver_menu"> <a class="texto_menu" href="#comidas">Ver Menú</a></button>
+                <button  class="hacer_pedido"><a class="texto_btn" href="https://api.whatsapp.com/send?phone=5491159519040">Hacer pedido</a></button>
+               </div>
+        </div>
+      </div>
+      <div class="encabezado carousel-item">
+        <img src="imagenes/2.jpg" class="d-block w-100" alt="foto de hamburguesa">
+        <div class="carousel-caption d-none d-md-block">
+            <h1>¿QUÉ VAS A PEDIR HOY?</h1>
+            <h2>CIUDADELA - TU CASA DE COMIDAS</h2>
+            <div class="botones">   <button class="ver_menu"> <a class="texto_menu" href="#comidas">Ver Menú</a></button>
+                <button  class="hacer_pedido"><a class="texto_btn" href="https://api.whatsapp.com/send?phone=5491159519040">Hacer pedido</a></button>
+               </div>
+        </div>
+      </div>
+      <div class="encabezado carousel-item">
+        <img src="imagenes/3.jpg" class="d-block w-100" alt="foto de pizza">
+        <div class="carousel-caption d-none d-md-block">
+        
+            <h1>¿QUÉ VAS A PEDIR HOY?</h1>
+            <h2>CIUDADELA - TU CASA DE COMIDAS</h2>
+            <div class="botones">   <button class="ver_menu"> <a class="texto_menu" href="#comidas">Ver Menú</a></button>
+                <button  class="hacer_pedido"><a class="texto_btn" href="https://api.whatsapp.com/send?phone=5491159519040">Hacer pedido</a></button>
+               </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    
+      <img class="previo" src="imagenes/prev.png" alt="botón previo">
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      
+      <img class="prox" src="imagenes/next.png" alt="botón próximo">
+    </a>
+</div>
+</div>
+</header>
+   <section id="inicio" class="seccion1">
+<div class="contenedor_platos">
+
+<div class="texto_platos">
+<h3>Bienvenidos a Ciudadela!</h3>
+<img class="cubierto" src="./imagenes/cuchicllo-01.png" alt="ilustración de cubiertos">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic architecto aspernatur facilis veniam non tempore corrupti accusantium inventore animi velit mollitia magni nisi dolore culpa neque, dolor, exercitationem eos maxime  dolor sit amet consectetur adipisicing elit. Hic.</p>
+</div>
+
+<div class="fotos_comida">
+  <div class="row row-cols-1 row-cols-md-3">
+    <div class="col mb-4">
+        <div class="card">
+            <div class="cover cover-small" style="background-image: url(imagenes/pasta.jpg);">
+            </div>
+        </div>
+    </div>
+    <div class="col mb-4">
+        <div class="card">
+            <div class="cover cover-small" style="background-image: url(imagenes/ensalada.jpg);">
+            </div>
+        </div>
+    </div>
+    <div class="col mb-4">
+        <div class="card">
+            <div class="cover cover-small" style="background-image: url(imagenes/ravioles.jpg);">
+            </div>
+        </div>
+    </div>
+    <div class="col mb-4">
+        <div class="card">
+            <div class="cover cover-small" style="background-image: url(imagenes/lasagna.jpg);">
+            </div>
+        </div>
+    </div>
+    <div class="col mb-4">
+        <div class="card">
+            <div class="cover cover-small" style="background-image: url(imagenes/caesar.jpg);">
+            </div>
+        </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+          <div class="cover cover-small" style="background-image: url(imagenes/waldorf.jpg);">
+          </div>
+      </div>
+  </div>
+</div>
+  </div>
+
+<div class="redes_platos">
+<h3>Seguinos en nuestras redes sociales</h3>
+<a href="https://www.facebook.com/TuCasaDeComidasCiudadela"><img class="fb" src="./imagenes/logo fb.png" alt="logo facebook"></a>
+<a href="https://www.instagram.com/ciudadelatucasadecomidas/?igshid=1d98vv67jj3nn"><img class="ig" src="./imagenes/logo ig.png" alt="logo instagram"></a>
+</div>
+
+</section>
+
+<section id="nosotros" class="seccion2">
+    <div >
+        <img class="fotoamasado" src="imagenes/amasar.jpg" alt="amasar">
+    </div>
+<div class="nosotros">    
+<h2>¿Quiénes somos? </h2>
+<img class="gorro" src="imagenes/gorro.png" alt="gorro de chef">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nemo similique quibusdam omnis suscipit ipsa aperiam dolore ducimus laboriosam in minus nulla blanditiis archite cto iusto necessitatibus, fuga adipisci beatae magni laboriosam in minus nulla blanditiis archite cto iusto necessita et consectetur la blanditiis archite cto iusto necessitatibus, fuga adipisci beatae magni laboriosam in minus nulla blanditiis archite cto iusto necessita et consectetu .</p>
+ </div>
+</section>
+
+<section id= "comidas" class="seccion3">
+   
+<div class="fondo_menu">
+  
+<div class="contenedor_menu">
+    <div class="contenedortitulo"> <h3 class="tit_menu">Ofertas Especiales</h3> 
+<div class="contenedor_lista1">
+<ul>
+<li>
+    <div class="lista">
+   <img src="./imagenes/risotto.jpg" alt="Plato de risotto">
+   <p>Lorem _________$120.99 <br> Lorem ipsum dolor sit amet consectetur</p> 
+   <p> </p>
+</div>
+</li>
+<li><div class="lista">
+    <img src="./imagenes/canastita.jpg" alt="Plato de risotto">
+    <p>Lorem _________$120.99 <br> Lorem ipsum dolor sit amet consectetur</p> 
+ </div>
+</li>
+ <li><div class="lista">
+    <img src="./imagenes/taeta.jpg" alt="Plato de risotto">
+     <p>Lorem _________$120.99 <br> Lorem ipsum dolor sit amet consectetur</p> 
+ </div>
+</li>
+ <li><div class="lista">
+    <img src="./imagenes/noquis.jpg" alt="Plato de risotto">
+    <p>Lorem _________$120.99 <br> Lorem ipsum dolor sit amet consectetur</p> 
+ </div>
+</li>
+</ul>
+</div>
+<div class="contenedor_lista2">
+    <ul>
+ <li><div class="lista">
+    <img src="./imagenes/ensaladacaear.jpg" alt="Plato de risotto">
+     <p>Lorem _________$120.99 <br> Lorem ipsum dolor sit amet consectetur</p> 
+ </div>
+</li>
+ <li><div class="lista">
+    <img src="./imagenes/pastel.jpg" alt="Plato de risotto">
+    <p>Lorem _________$120.99 <br> Lorem ipsum dolor sit amet consectetur</p> 
+ </div>
+</li>
+ <li><div class="lista">
+    <img src="./imagenes/arrolladitos.jpg" alt="Plato de risotto">
+     <p>Lorem _________$120.99 <br> Lorem ipsum dolor sit amet consectetur</p> 
+ </div>
+</li>
+ <li><div class="lista">
+    <img src="./imagenes/guidso.jpg" alt="Plato de risotto">
+     <p>Lorem _________$120.99 <br> Lorem ipsum dolor sit amet consectetur</p> 
+</div>
+ </li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="seccion4">
+<div  class="seccion4">
+<div class="ubicacion">    
+<h2>¿Dónde estamos? </h2>
+<img class="gorro" src="imagenes/logocasa.png" alt="ícono casa de comidas">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nemo similique quibusdam omnis suscipit ipsa aperiam dolore ducimus laboriosam in minus nulla blanditiis archite cto iusto necessitatibus, fuga adipisci beatae magni laboriosam in minus nulla blanditiis archite cto iusto necessita et consectetur la blanditiis archite cto iusto.</p>
+ </div>
+ <div >
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.7808702175407!2d-58.5465349850513!3d-34.63497746665909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc80fecd7a6e1%3A0x645d0714d533cf36!2sAv.%20Gaona%204120%2C%20B1702APX%20Ciudadela%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1609776497769!5m2!1ses!2sar" width="600" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+</div>
+<div class="btn_pedir">
+    
+    <p> <img class="logowspp" src="./imagenes/logowspp.png" alt="Logo de whatsapp"> 1159519040 </p>
+    <div class="link_wspp">
+    <button> <a class="texto_btn" href="https://api.whatsapp.com/send?phone=5491159519040">Hacé tu pedido</a></button>
+    </div>
+</div>
+</section>
+
+<section class="seccion5">
+    <div class="container container_opiniones">
+        <h2>¿Qué dicen nuestros clientes?</h2>
+        <div class="row row_o">
+            <blockquote class="  col-4 text-center" >
+                <div class="tarjeta">
+            <img src="./imagenes/usuario.png" alt="ícono de persona">
+            
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio molestias distinctio autem magni cum necessitatibus</p>
+            <footer class="blockquote_footer">
+                <cite class="cite">
+                    Kevin 
+                </cite>
+            </footer>
+        </div>
+        </blockquote>
+    
+        <blockquote class=" col-4 text-center" >
+            <div class="tarjeta">
+                <img src="./imagenes/usuario.png" alt="ícono de persona">
+                
+                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio molestias distinctio autem magni cum necessitatibus</p>
+                <footer class="blockquote_footer">
+                    <cite class="cite">
+                        Ileana 
+                    </cite>
+                </footer>
+            </div>
+        </blockquote>
+        <blockquote class=" col-4 text-center" >
+            <div class="tarjeta">
+                <img src="./imagenes/usuario.png" alt="ícono de persona">
+                
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio molestias distinctio autem magni cum necessitatibus</p>
+                <footer class="blockquote_footer">
+                    <cite class="cite">
+                        Solange
+                    </cite>
+                </footer>
+            </div>
+        </blockquote>
+        </div>
+   
+</section>
+
+<section class="seccion6" id="contacto">
+
+<div class="footer1">
+<img src="./imagenes/logofooter-01.png" alt="Logo empresa">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ex quos repellat quam? Odio aliquam ab animi distinctio nisi excepturi explicabo atque amet </p>
+<a href="https://www.facebook.com/TuCasaDeComidasCiudadela"><img class="fbfooter"src="./imagenes/logo fb.png" alt="Logo FB"></a>
+<a href="https://www.instagram.com/ciudadelatucasadecomidas/?igshid=1d98vv67jj3nn"><img class="igfooter" src="./imagenes/logo ig.png" alt="Logo IG"></a>
+</div>
+
+<div class="footer2">
+<h4>Contáctanos</h4>
+<p><img class="point"src="./imagenes/point.png" alt="ícono ubicación"> 4251 8999</p>
+<p><img class="point"src="./imagenes/point.png" alt="ícono ubicación">1159519040 </p>
+<p><img class="point"src="./imagenes/point.png" alt="ícono ubicación">info@ciudadela.com</p>
+</div>
+
+<div class="footer3">
+    <h4>Sugerencias</h4>
+   
+<form>
+    
+  <div class="row">
+      <div class="col">
+        <input type="text" class="form-control nombre" placeholder="nombre" required>
+      </div>
+      <div class="col">
+        <input type="tel" class="form-control telefono" placeholder="celular" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlInput1"></label>
+      <input type="email" class="form-control mail_contacto" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
+    </div>
+  <div class="form-group">
+      <label for="exampleFormControlTextarea1"></label>
+      <textarea class="form-control mensaje" id="exampleFormControlTextarea1" placeholder="mensaje" rows="3" required></textarea>
+    </div>
+    <div class="boton_contacto ">
+        <button type="submit" class="btn btn-primary btn_enviar">ENVIAR</button>
+      </div>
+</form>
+</div>
+</section>
+</body>
+</html>
